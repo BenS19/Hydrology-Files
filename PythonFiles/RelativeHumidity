@@ -1,0 +1,7 @@
+'''
+A function for generating a relative humidity from a vapor pressure and a 
+saturation vapor pressure.
+Author: Ben Sershen
+'''
+def relHumidity(VaporPressure,SatVaporPressure): #(Pascals,Pascals)
+    print(VaporPressure/SatVaporPressure)
